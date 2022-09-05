@@ -1,0 +1,34 @@
+p{
+	color: black;
+	text-align: justify;
+	font-family: calibri, verdana, comic sans, tahoma;
+	font-size: 12pt;
+}
+body{
+	background-color: #7173ac;
+	margin: 0cm 3cm;
+	background-image: linear-gradient(#60dfb7, #b6f2df, #eff8f4);
+}
+hr{
+	border-width: 4px;
+	border-color: #02381f;
+	border-style: dashed; 
+}
+fieldset,legend{
+	border: #245c43 groove 5px
+}
+legend{
+	padding: 10px;
+	background-color: white;
+	color: #245c43;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: calibri;
+	letter-spacing: 3px;
+}
+ul{
+	list-style-image: url(img/21.gif);
+}
+ol{
+	list-style-image: url(img/22.gif);
+}

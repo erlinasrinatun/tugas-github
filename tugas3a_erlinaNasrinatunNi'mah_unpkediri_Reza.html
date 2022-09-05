@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Form</title>
+</head>
+<body>
+	<form name="produk" method="GET" action="#">
+    	<table align="center" cellpadding="20" width="30%">
+    		<thead>
+    			<th colspan="2" bgcolor="grey">Form Registrasi Produk</th>
+    		</thead>
+    		<tbody>
+    			<tr>
+    				<td width="120">Nama Produk</td>
+    				<td width="120"><input type="text" name="nama" size="20"></td>
+    			</tr>
+    			<tr>
+    				<td>Jenis Produk</td>
+    				<td><select name="kategori">
+    					<option value="">--pilih salah satu--</option>
+    					<option value="makeup">Elektronik</option>
+    					<option value="mainan">Mainan</option>
+    					<option value="alat">Peralatan rumah tanga</option>
+    				</select>
+    			</td>
+    			</tr>
+    			<tr>
+    				<td>Harga</td>
+    				<td><input type="text" name="harga" size="20"></td>
+    			</tr>
+    			<tr>
+    				<td>Stok</td>
+    				<td><input type="text" name="stok" size="20"></td>
+    			</tr>
+    			<tr>
+    				<td>Photo</td>
+    				<td><input type="text" name="photo" size="20"></td>
+    			</tr>
+    			<tfoot bgcolor="grey">
+    			<th colspan="2" align="center">
+    				<input type="submit" name="proses" value="kirim">
+    				<input type="reset" name="diproses" value="batal">
+    			</th>
+    		</tfoot>
+</body>
+</html>
